@@ -1,0 +1,94 @@
+.float-btn {
+    /* font-size: 50px; */
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* border: none; */
+    /* outline: none; */
+    /* transition: .3s; */
+}
+
+
+/* .float-btn:focus {
+    transform: scale(1.8);
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} */
+
+
+/* .float {
+    color: white;
+} */
+
+.whatsappbtn {
+    background-color: #25d366;
+    display: none;
+    color: white;
+}
+
+.callbtn {
+    background-color: #06a13f;
+    display: none;
+    color: white;
+}
+
+.closebtn {
+    display: none;
+}
+
+.closebtn,
+.chatbtn {
+    background-color: rgb(132, 132, 240);
+    color: white;
+}
+
+.float-icon {
+    font-size: 30px;
+    color: white;
+}
+
+.container-parent {
+    width: 100%;
+    display: block;
+    /* border: 2px solid red; */
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    margin-bottom: 50px;
+    z-index: 100;
+}
+
+.groupbtn {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.container-child {
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    /* border: 2px solid blue; */
+}
+
+.contactText {
+    background-color: white;
+    color: rgb(83, 78, 78);
+    padding: 8px 10px 0px 10px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-top: 13px;
+    border: 1px solid rgb(233, 229, 229);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.float-contactText {
+    font-size: 15px;
+}
